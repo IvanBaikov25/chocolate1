@@ -1,0 +1,23 @@
+{
+    "name": "baikov/chocolate1",
+    "type": "chocolate1",
+    "autoload": {
+        "psr-4": {
+            "Baikov\\Chocolate1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ivan"
+        }
+    ],
+    "require": {
+         "baikov/chocolate": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/IvanBaikov25/chocolate.git"
+        }
+    ]
+}

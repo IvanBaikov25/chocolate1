@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fda2009099481a9158ff99248e3174a2",
+    "packages": [
+        {
+            "name": "baikov/chocolate",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IvanBaikov25/chocolate.git",
+                "reference": "a186f2ccd0b1bbb0c7d9c91e76cbb5e31c3bc731"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IvanBaikov25/chocolate/zipball/a186f2ccd0b1bbb0c7d9c91e76cbb5e31c3bc731",
+                "reference": "a186f2ccd0b1bbb0c7d9c91e76cbb5e31c3bc731",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "chocolate",
+            "autoload": {
+                "psr-4": {
+                    "Baikov\\Chocolate\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "ivan"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/IvanBaikov25/chocolate/tree/main",
+                "issues": "https://github.com/IvanBaikov25/chocolate/issues"
+            },
+            "time": "2025-04-17T16:06:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "baikov/chocolate": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
