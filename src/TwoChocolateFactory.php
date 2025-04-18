@@ -2,13 +2,14 @@
 
 namespace Baikov\Chocolate1;
 require_once 'vendor/autoload.php';
+use Baikov\Chocolate\ChocolateFactory;
+use Baikov\Chocolate\Snack;
 use Baikov\Chocolate1\ChocolateBar;
 use Baikov\Chocolate1\ChocolateCake;
 use Baikov\Chocolate1\ChocolateCookie;
-use Baikov\Chocolate\Snack;
 use InvalidArgumentException;
 
-class ChocolateFactory
+class TwoChocolateFactory extends ChocolateFactory
 {
     public function orderSnack(string $type): void
     {

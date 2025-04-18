@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'baikov/chocolate1',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'ad66148126734f222b1c2c6b409434b25ec5ed9a',
         'type' => 'chocolate1',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,9 +22,9 @@
             'dev_requirement' => false,
         ),
         'baikov/chocolate1' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'ad66148126734f222b1c2c6b409434b25ec5ed9a',
             'type' => 'chocolate1',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
