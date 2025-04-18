@@ -3,7 +3,7 @@
         'name' => 'baikov/chocolate1',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ad66148126734f222b1c2c6b409434b25ec5ed9a',
+        'reference' => '43bba8b29818dbd81f36ed3b710f9a9b01532e21',
         'type' => 'chocolate1',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -24,7 +24,7 @@
         'baikov/chocolate1' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ad66148126734f222b1c2c6b409434b25ec5ed9a',
+            'reference' => '43bba8b29818dbd81f36ed3b710f9a9b01532e21',
             'type' => 'chocolate1',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
