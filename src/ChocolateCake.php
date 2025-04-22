@@ -1,7 +1,6 @@
 <?php
 
 namespace Baikov\Chocolate1;
-require_once 'vendor/autoload.php';
 use Baikov\Chocolate\Snack;
 
 class ChocolateCake extends Snack

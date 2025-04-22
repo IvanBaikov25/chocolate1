@@ -1,7 +1,8 @@
 <?php
 
 namespace Baikov\Chocolate1;
-require_once 'vendor/autoload.php';
+
+
 use Baikov\Chocolate\ChocolateFactory;
 use Baikov\Chocolate\Snack;
 use Baikov\Chocolate1\ChocolateBar;
@@ -13,13 +14,11 @@ class TwoChocolateFactory extends ChocolateFactory
 {
     public function orderSnack(string $type): void
     {
-        $snack = $this->createSnack($type);
-        $snack->prepare();
-        $snack->cut();
+        parent::orderSnack($type); 
     }
 
-    private function createSnack(string $type): Snack
-    {
+    protected function createSnack(string $type): Snack 
+    {   
         switch ($type) {
             case 'chocolate_bar':
                 return new ChocolateBar();
