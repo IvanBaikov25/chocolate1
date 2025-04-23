@@ -1,8 +1,6 @@
 <?php
 
 namespace Baikov\Chocolate1;
-
-
 use Baikov\Chocolate\ChocolateFactory;
 use Baikov\Chocolate\Snack;
 use Baikov\Chocolate1\ChocolateBar;
