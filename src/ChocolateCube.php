@@ -4,10 +4,10 @@ namespace Baikov\Chocolate1;
 
 use Baikov\Chocolate\Snack;
 
-class ChocolateBar extends Snack
+class ChocolateCube extends Snack
 {
     public function cut(): void
     {
-        echo "Нарезаем шоколадку плитками.\n";
+        echo "Режем шоколад кубиками.\n";
     }
 }
